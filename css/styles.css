@@ -1,5 +1,5 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -96,7 +96,15 @@ ul {
 .description {
   line-height: 1.71;
   color: #595959;
-  width: 525px;
+}
+
+.description-link {
+  color: #005fff;
+}
+
+.description-link:hover,
+.description-link:focus {
+  color: tomato;
 }
 
 /* Projects */
